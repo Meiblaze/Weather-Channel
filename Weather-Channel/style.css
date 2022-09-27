@@ -1,0 +1,174 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url(https://i.pinimg.com/originals/89/07/23/8907237d32a2a5f6c3f2f79036f262a4.gif);;
+    color: #915a91;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.02em;
+}
+
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background: #915a91;
+}
+  
+button:hover {
+    background: hsl(345, 100%, 91%);
+    color: #1e2432;
+}
+
+.container {
+    background-color:hsl(345, 100%, 91%);
+    color: #915a91;
+    width: 280px;
+    height: 320px;
+    border-radius: 20px;
+    margin-left: 50px;
+    visibility : hidden;
+    margin: 50px auto;
+}
+
+.ciudades {
+    padding: 40px 10%; 
+}
+
+#ciudad {
+    font-size: 2rem;
+    color: #717681;
+}
+
+#temperatura {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+sup {
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+img {
+    width: 4rem;
+}
+
+#descripcion {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #717681;
+}
+
+.encabezado {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+span {
+    color: rgb(24, 21, 21);
+}
+
+@media (max-width: 600px) {
+    input, #input {
+        font-size: 1.5rem;
+        height: 30px;
+    }
+
+    h1, .h1 {
+        font-size: 3rem;
+    }
+
+    miBoton, .miBoton {
+        font-size: 0.8rem;
+    }
+
+    container, .container {
+        width: 200px;
+        height: 250px;
+        border-radius: 18px;
+    }
+
+    ciudades, .ciudades {
+        padding: 25px 10%; 
+    }
+
+    ciudad, #ciudad {
+        font-size: 1.5rem;
+    }
+
+    temperatura, #temperatura {
+        font-size: 3rem;
+    }
+
+    sup, sup {
+        font-size: 2rem;
+    }
+
+    img, img {
+        width: 3rem;
+    }
+
+  }
+
+@media (max-width: 460px) {
+    input, #input {
+        font-size: 1.3rem;
+        height: 30px;
+    }
+
+    inputCiudad, #inputCiudad {
+        font-size: 1rem;
+        height: 30px;
+    }
+
+    h1, .h1 {
+        font-size: 2.3rem;
+    }
+
+    miBoton, .miBoton {
+        font-size: 0.8rem;
+    }
+
+    }
+
+@media (max-width: 390px) {
+    input, #input {
+        font-size: 1.2rem;
+        height: 25px;
+    }
+
+    h1, .h1 {
+        font-size: 2rem;
+    }
+
+    miBoton, .miBoton {
+        font-size: 0.7rem;
+    }
+
+    }
